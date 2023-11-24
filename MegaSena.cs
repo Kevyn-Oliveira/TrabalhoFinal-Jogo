@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 
@@ -22,6 +23,20 @@ namespace TrabalhoFinal_Jogo
         {
             if(numerosSelecionados.Contains(numero)) { numerosSelecionados.Remove(numero); }
             else { numerosSelecionados.Add(numero); }
+            numerosSelecionados.Sort();
+        }
+
+        public void SortearNumeros()
+        {
+            HashSet<int> numeros = new HashSet<int>();
+            Random random = new Random();
+            for (int i = 0; numeros.Count() < 6; i++)
+            {
+                numeros.Add(random.Next(1, 61));
+            }
+            numerosSorteados = numeros.ToList<int>();
+            numerosSorteados = numeros.ToList<int>();
+            numerosSorteados.Sort();
         }
     }
 }

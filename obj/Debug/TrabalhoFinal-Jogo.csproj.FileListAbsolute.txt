@@ -9,3 +9,14 @@ C:\Users\kdoke\source\repos\TrabalhoFinal-Jogo\obj\Debug\TrabalhoFinal-Jogo.cspr
 C:\Users\kdoke\source\repos\TrabalhoFinal-Jogo\obj\Debug\TrabalhoFinal-Jogo.csproj.CoreCompileInputs.cache
 C:\Users\kdoke\source\repos\TrabalhoFinal-Jogo\obj\Debug\TrabalhoFinal-Jogo.exe
 C:\Users\kdoke\source\repos\TrabalhoFinal-Jogo\obj\Debug\TrabalhoFinal-Jogo.pdb
+C:\Users\kevyn.oliveira\Entra21\VisualStudio\C#\TrabalhoFinal-Jogo\bin\Debug\TrabalhoFinal-Jogo.exe.config
+C:\Users\kevyn.oliveira\Entra21\VisualStudio\C#\TrabalhoFinal-Jogo\bin\Debug\TrabalhoFinal-Jogo.exe
+C:\Users\kevyn.oliveira\Entra21\VisualStudio\C#\TrabalhoFinal-Jogo\bin\Debug\TrabalhoFinal-Jogo.pdb
+C:\Users\kevyn.oliveira\Entra21\VisualStudio\C#\TrabalhoFinal-Jogo\obj\Debug\TrabalhoFinal-Jogo.csproj.AssemblyReference.cache
+C:\Users\kevyn.oliveira\Entra21\VisualStudio\C#\TrabalhoFinal-Jogo\obj\Debug\TrabalhoFinal_Jogo.Form1.resources
+C:\Users\kevyn.oliveira\Entra21\VisualStudio\C#\TrabalhoFinal-Jogo\obj\Debug\TrabalhoFinal_Jogo.MegaSenaForm.resources
+C:\Users\kevyn.oliveira\Entra21\VisualStudio\C#\TrabalhoFinal-Jogo\obj\Debug\TrabalhoFinal_Jogo.Properties.Resources.resources
+C:\Users\kevyn.oliveira\Entra21\VisualStudio\C#\TrabalhoFinal-Jogo\obj\Debug\TrabalhoFinal-Jogo.csproj.GenerateResource.cache
+C:\Users\kevyn.oliveira\Entra21\VisualStudio\C#\TrabalhoFinal-Jogo\obj\Debug\TrabalhoFinal-Jogo.csproj.CoreCompileInputs.cache
+C:\Users\kevyn.oliveira\Entra21\VisualStudio\C#\TrabalhoFinal-Jogo\obj\Debug\TrabalhoFinal-Jogo.exe
+C:\Users\kevyn.oliveira\Entra21\VisualStudio\C#\TrabalhoFinal-Jogo\obj\Debug\TrabalhoFinal-Jogo.pdb
