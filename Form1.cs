@@ -12,9 +12,18 @@ namespace TrabalhoFinal_Jogo
 {
     public partial class Form1 : Form
     {
+        public static string nome;
+
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void btnMega_Click(object sender, EventArgs e)
+        {
+            nome = txbNome.Text;
+            MegaSenaForm mega = new MegaSenaForm();
+            mega.Show();
         }
     }
 }

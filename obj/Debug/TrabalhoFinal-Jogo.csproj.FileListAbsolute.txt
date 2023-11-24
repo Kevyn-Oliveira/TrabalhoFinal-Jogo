@@ -1,0 +1,11 @@
+C:\Users\kdoke\source\repos\TrabalhoFinal-Jogo\bin\Debug\TrabalhoFinal-Jogo.exe.config
+C:\Users\kdoke\source\repos\TrabalhoFinal-Jogo\bin\Debug\TrabalhoFinal-Jogo.exe
+C:\Users\kdoke\source\repos\TrabalhoFinal-Jogo\bin\Debug\TrabalhoFinal-Jogo.pdb
+C:\Users\kdoke\source\repos\TrabalhoFinal-Jogo\obj\Debug\TrabalhoFinal-Jogo.csproj.AssemblyReference.cache
+C:\Users\kdoke\source\repos\TrabalhoFinal-Jogo\obj\Debug\TrabalhoFinal_Jogo.Form1.resources
+C:\Users\kdoke\source\repos\TrabalhoFinal-Jogo\obj\Debug\TrabalhoFinal_Jogo.MegaSenaForm.resources
+C:\Users\kdoke\source\repos\TrabalhoFinal-Jogo\obj\Debug\TrabalhoFinal_Jogo.Properties.Resources.resources
+C:\Users\kdoke\source\repos\TrabalhoFinal-Jogo\obj\Debug\TrabalhoFinal-Jogo.csproj.GenerateResource.cache
+C:\Users\kdoke\source\repos\TrabalhoFinal-Jogo\obj\Debug\TrabalhoFinal-Jogo.csproj.CoreCompileInputs.cache
+C:\Users\kdoke\source\repos\TrabalhoFinal-Jogo\obj\Debug\TrabalhoFinal-Jogo.exe
+C:\Users\kdoke\source\repos\TrabalhoFinal-Jogo\obj\Debug\TrabalhoFinal-Jogo.pdb
