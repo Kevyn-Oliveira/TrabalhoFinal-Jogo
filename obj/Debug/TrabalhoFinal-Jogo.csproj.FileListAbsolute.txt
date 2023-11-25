@@ -21,3 +21,4 @@ C:\Users\kevyn.oliveira\Entra21\VisualStudio\C#\TrabalhoFinal-Jogo\obj\Debug\Tra
 C:\Users\kevyn.oliveira\Entra21\VisualStudio\C#\TrabalhoFinal-Jogo\obj\Debug\TrabalhoFinal-Jogo.exe
 C:\Users\kevyn.oliveira\Entra21\VisualStudio\C#\TrabalhoFinal-Jogo\obj\Debug\TrabalhoFinal-Jogo.pdb
 C:\Users\kevyn.oliveira\Entra21\VisualStudio\C#\TrabalhoFinal-Jogo\obj\Debug\TrabalhoFinal_Jogo.PalavrasForm.resources
+C:\Users\kdoke\source\repos\TrabalhoFinal-Jogo\obj\Debug\TrabalhoFinal_Jogo.PalavrasForm.resources

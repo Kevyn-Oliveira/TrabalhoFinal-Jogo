@@ -17,8 +17,8 @@ namespace TrabalhoFinal_Jogo
         private string[] palavras = { "sagaz", "termo", "mexer", "nobre", "senso", "afeto", "algoz", "plena", "fazer", "assim",
             "vigor","sutil", "sanar", "poder", "ideia", "cerne", "inato", "moral", "muito", "justo", "honra", "sonho", "etnia",
             "anexo", "amigo", "lapso", "haver", "expor", "tempo", "casal", "pesar", "saber", "causa", "dizer", "genro" };
-        //public List<char> atualPalavra = new List<char>();
-        public char[,] atualPalavra = new char[6, 5];
+        public List<char> atualPalavra = new List<char>();
+        //public char[] atualPalavra = new char[5];
         public int letrasNaPalavra = 0;
 
         public Palavra(string nome)
@@ -32,7 +32,7 @@ namespace TrabalhoFinal_Jogo
         {
             if (letrasNaPalavra != 5) 
             {
-                atualPalavra[tentativas,letrasNaPalavra] = letra;
+                atualPalavra.Add(letra);
                 letrasNaPalavra++;
             }
         }
@@ -42,8 +42,14 @@ namespace TrabalhoFinal_Jogo
             if (letrasNaPalavra != 0)
             {
                 letrasNaPalavra--;
-                atualPalavra[tentativas, letrasNaPalavra] = ' ';
+                atualPalavra.RemoveAt(letrasNaPalavra);
             }
+        }
+        
+        public void resetandoPalavra()
+        {
+            this.atualPalavra.Clear();
+            this.letrasNaPalavra = 0;
         }
     }
 }
