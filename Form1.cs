@@ -25,5 +25,12 @@ namespace TrabalhoFinal_Jogo
             MegaSenaForm mega = new MegaSenaForm();
             mega.Show();
         }
+
+        private void btnPalavras_Click(object sender, EventArgs e)
+        {
+            nome = txbNome.Text;
+            PalavrasForm palavraForm = new PalavrasForm();
+            palavraForm.Show();
+        }
     }
 }

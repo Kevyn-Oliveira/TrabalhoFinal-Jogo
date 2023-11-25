@@ -8,10 +8,17 @@
     </TypeIdentifier>
   </Class>
   <Class Name="TrabalhoFinal_Jogo.MegaSena">
-    <Position X="3" Y="2.75" Width="1.5" />
+    <Position X="2" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <HashCode>IBIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
       <FileName>MegaSena.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrabalhoFinal_Jogo.Palavra">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Palavra.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

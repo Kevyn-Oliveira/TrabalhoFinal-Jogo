@@ -880,10 +880,10 @@
             // txbEscolhidos
             // 
             this.txbEscolhidos.Enabled = false;
-            this.txbEscolhidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbEscolhidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbEscolhidos.Location = new System.Drawing.Point(13, 395);
             this.txbEscolhidos.Name = "txbEscolhidos";
-            this.txbEscolhidos.Size = new System.Drawing.Size(454, 27);
+            this.txbEscolhidos.Size = new System.Drawing.Size(454, 23);
             this.txbEscolhidos.TabIndex = 64;
             this.txbEscolhidos.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -994,6 +994,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "MegaSenaForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Mega-Sena";
             this.Load += new System.EventHandler(this.MegaSenaForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nudNumerosAposta)).EndInit();

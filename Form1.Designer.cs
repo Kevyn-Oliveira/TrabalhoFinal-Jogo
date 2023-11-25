@@ -32,6 +32,7 @@
             this.btnMega = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.txbNome = new System.Windows.Forms.TextBox();
+            this.btnPalavras = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -71,19 +72,32 @@
             this.txbNome.Location = new System.Drawing.Point(90, 53);
             this.txbNome.Name = "txbNome";
             this.txbNome.Size = new System.Drawing.Size(217, 29);
-            this.txbNome.TabIndex = 3;
+            this.txbNome.TabIndex = 0;
+            // 
+            // btnPalavras
+            // 
+            this.btnPalavras.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPalavras.Location = new System.Drawing.Point(12, 147);
+            this.btnPalavras.Name = "btnPalavras";
+            this.btnPalavras.Size = new System.Drawing.Size(295, 41);
+            this.btnPalavras.TabIndex = 2;
+            this.btnPalavras.Text = "Palavras";
+            this.btnPalavras.UseVisualStyleBackColor = true;
+            this.btnPalavras.Click += new System.EventHandler(this.btnPalavras_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(319, 295);
+            this.Controls.Add(this.btnPalavras);
             this.Controls.Add(this.txbNome);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnMega);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Jogos";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -95,6 +109,7 @@
         private System.Windows.Forms.Button btnMega;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txbNome;
+        private System.Windows.Forms.Button btnPalavras;
     }
 }
 
