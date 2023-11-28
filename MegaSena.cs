@@ -28,6 +28,15 @@ namespace TrabalhoFinal_Jogo
 
         public void SortearNumeros()
         {
+            if (nome == "/debug")
+            {
+                numerosSorteados.Clear();
+                for (int i = 0; i < 6; i++)
+                {
+                    numerosSorteados.Add(numerosSelecionados[i]);
+                }
+                return;
+            }
             HashSet<int> numeros = new HashSet<int>();
             Random random = new Random();
             for (int i = 0; numeros.Count() < 6; i++)

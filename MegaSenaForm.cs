@@ -78,13 +78,39 @@ namespace TrabalhoFinal_Jogo
 
         private void btnSortear_Click(object sender, EventArgs e)
         {
-            txbNumerosSorteados.Text = string.Empty;
-            mega.SortearNumeros();
-            foreach (int numero in mega.numerosSorteados)
+            if (mega.numerosSelecionados.Count == mega.numerosNaAposta)
             {
-                txbNumerosSorteados.Text += numero.ToString() + " ";
+                txbNumerosSorteados.Text = string.Empty;
+                mega.SortearNumeros();
+                foreach (int numero in mega.numerosSorteados)
+                {
+                    txbNumerosSorteados.Text += numero.ToString() + " ";
+                }
+                compararNumeros();
             }
-            compararNumeros();
+        }
+
+        private void resetarPagina()
+        {
+            foreach(Control control in Controls) 
+            {
+                if(control is Button)
+                {
+                    control.BackColor = Color.White;
+                }
+            }
+            mega.numerosSelecionados.Clear();
+            mega.numerosSorteados.Clear();
+            txbEscolhidos.Clear();
+            txbNumerosSorteados.Clear();
+            nudNumerosAposta.Minimum = 6;
+            nudNumerosAposta.Value = 6;
+            
+        }
+
+        private void btnResetar_Click(object sender, EventArgs e)
+        {
+            resetarPagina();
         }
     }
 }

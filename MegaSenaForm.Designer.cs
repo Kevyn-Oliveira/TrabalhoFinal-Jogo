@@ -96,6 +96,7 @@
             this.txbNumerosSorteados = new System.Windows.Forms.TextBox();
             this.btnSortear = new System.Windows.Forms.Button();
             this.lblResultado = new System.Windows.Forms.Label();
+            this.btnResetar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.nudNumerosAposta)).BeginInit();
             this.SuspendLayout();
             // 
@@ -901,9 +902,9 @@
             // 
             this.btnSortear.BackColor = System.Drawing.Color.White;
             this.btnSortear.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSortear.Location = new System.Drawing.Point(150, 357);
+            this.btnSortear.Location = new System.Drawing.Point(12, 357);
             this.btnSortear.Name = "btnSortear";
-            this.btnSortear.Size = new System.Drawing.Size(178, 32);
+            this.btnSortear.Size = new System.Drawing.Size(224, 32);
             this.btnSortear.TabIndex = 66;
             this.btnSortear.Text = "Sortear";
             this.btnSortear.UseVisualStyleBackColor = false;
@@ -919,12 +920,25 @@
             this.lblResultado.TabIndex = 67;
             this.lblResultado.Text = "Boa Sorte!";
             // 
+            // btnResetar
+            // 
+            this.btnResetar.BackColor = System.Drawing.Color.White;
+            this.btnResetar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnResetar.Location = new System.Drawing.Point(242, 356);
+            this.btnResetar.Name = "btnResetar";
+            this.btnResetar.Size = new System.Drawing.Size(225, 32);
+            this.btnResetar.TabIndex = 68;
+            this.btnResetar.Text = "Resetar";
+            this.btnResetar.UseVisualStyleBackColor = false;
+            this.btnResetar.Click += new System.EventHandler(this.btnResetar_Click);
+            // 
             // MegaSenaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(479, 503);
+            this.Controls.Add(this.btnResetar);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.btnSortear);
             this.Controls.Add(this.txbNumerosSorteados);
@@ -1073,5 +1087,6 @@
         private System.Windows.Forms.TextBox txbNumerosSorteados;
         private System.Windows.Forms.Button btnSortear;
         private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.Button btnResetar;
     }
 }
